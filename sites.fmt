@@ -1,0 +1,12 @@
+0,rankid,integer
+1,tldrank,integer
+2,domain,string
+3,tld,string
+4,refsubnets,integer
+5,refips,integer
+6,idndomain,string
+7,idntld,string
+8,prevrank,integer
+9,prevtldrank,integer
+10,prevrefsubnets,integer
+11,prevrefips,integer
