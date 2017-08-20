@@ -11,7 +11,9 @@ command line application that imports a csv file into a cloud spanner table
 
     git clone https://github.com/hanknac/spannerimport.git
 
-4 cd spannerimport
+4 Navigate to the spannerimport directory
+
+    cd spannerimport
 
 5 Set the application default login
 
