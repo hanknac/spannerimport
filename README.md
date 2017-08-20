@@ -17,5 +17,5 @@ command line application that imports a csv file into a cloud spanner table
 
 6 Enter the following to import the 50,000 row csv file into the SiteRankings table
 
-    python sites.py --instance_id=[your spanner intance] --database_id=hn-[your spanner database] --table_id=SiteRankings --  batchsize=1600 --data_file=50000.csv --format_file=sites.fmt
+    python sites.py --instance_id=[your spanner intance] --database_id=hn-[your spanner database] --table_id=SiteRankings --batchsize=1600 --data_file=50000.csv --format_file=sites.fmt
     
