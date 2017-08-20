@@ -7,7 +7,9 @@ command line application that imports a csv file into a cloud spanner table
 
 2 Open a cloud shell from the google cloud platform console
 
-3 Clone this repository by entering git clone http:...
+3 Clone this repository by entering
+
+    git clone https://github.com/hanknac/spannerimport.git
 
 4 cd spannerimport
 
