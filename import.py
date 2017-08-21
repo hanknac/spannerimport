@@ -5,6 +5,7 @@
 import argparse
 import csv
 import numbers
+import base64
 
 from google.cloud import spanner
 
@@ -55,6 +56,8 @@ def insert_data(instance_id, database_id, table_id, batchsize, data_file, format
                         row[x] = int(row[x])
                 if typelist[x] == 'float':
                 	row[x] = float(row[x])
+                if typelist[x] == 'bytes':
+                	row[x] = base64.b64encode(row[x])
         alist.append(row)
         irows = irows + 1
   		    		
